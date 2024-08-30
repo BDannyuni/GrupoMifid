@@ -177,7 +177,7 @@ body {
         justify-content: center; /* Alinear contenido en el centro horizontalmente */
         text-align: center; /* Centrar el texto */
         padding: 20px; /* Reducir el padding */
-        height: 70vh;
+        height: 30vh;
     }
 
     .hero-content {
@@ -254,6 +254,9 @@ body {
 }
 
 @media (max-width: 480px) {
+    .hero {
+         height: 55vh;
+    }
     .hero h1 {
         font-size: 2rem; /* Reducir aún más el tamaño del texto */
     }
