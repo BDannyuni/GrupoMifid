@@ -177,7 +177,7 @@ body {
         justify-content: center; /* Alinear contenido en el centro horizontalmente */
         text-align: center; /* Centrar el texto */
         padding: 20px; /* Reducir el padding */
-        height: 30vh;
+        height: 50vh;
     }
 
     .hero-content {
