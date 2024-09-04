@@ -743,6 +743,14 @@ body {
     .btn-contacto {
         padding: 6px 12px;
     }
+    .logo-marca {
+    max-width: 200px; /* Define un ancho máximo razonable para los logos */
+    max-height: 87px; /* Define una altura máxima razonable para los logos */
+    width: auto; /* Permite que el ancho sea ajustado automáticamente */
+    height: auto; /* Permite que la altura sea ajustada automáticamente */
+    object-fit: contain; /* Asegura que el logo se ajuste sin distorsionar */
+    margin: 10px 0;
+}
 }
 
 body {
